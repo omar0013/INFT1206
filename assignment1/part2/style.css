@@ -57,7 +57,7 @@ header {
 }
 
 body > * {
-  background-color: red;
+  background-color: grey;
   padding: 1%;
 }
 
@@ -135,4 +135,25 @@ aside img {
 
 footer {
   margin-top: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 200px;
+  height: fit-content;
+}
+div {
+  background-color: greenyellow;
+  
 }
