@@ -46,14 +46,38 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 h1 {
   font-size: 3rem;
-
+  text-align: center;
 }
 
 h2 {
   font-size: 2rem;
 }
 
+
 p {
   font-size: 1em;
-  line-height: 2;
+  line-height: 1.7;
+}
+
+a:link {
+
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #464440;
+}
+
+a:visited {
+  color: #a69066;
+}
+a:focus {
+  outline: none;
+}
+
+ul, ol {
+
+}
+li {
+  line-height: 1.7;
 }
