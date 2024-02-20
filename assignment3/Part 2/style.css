@@ -6,12 +6,16 @@ html {
 div {
   width: 300px;
   height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   text-align: center;
+  line-height: 15;
   font-size: 18px;
   background-color: red;
   border-radius: 20px;
+  color: white;
+  font-style: bold;
  /* background-image: linear-gradient(to right button);*/
  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+ justify-content: center;
+ text-justify: center;
 }
